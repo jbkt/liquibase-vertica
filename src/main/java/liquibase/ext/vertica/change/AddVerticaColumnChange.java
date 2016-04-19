@@ -18,7 +18,7 @@ import java.util.Set;
 /**
  * Created by vesterma on 10/12/13.
  */
-@DatabaseChange(name="addVerticaColumn", description = "add a column to an existing table", priority = ChangeMetaData.PRIORITY_DATABASE)
+@DatabaseChange(name="addColumn", description = "add a column to an existing table", priority = ChangeMetaData.PRIORITY_DATABASE)
 public class AddVerticaColumnChange extends AddColumnChange {
 
     public ColumnConfigVertica createColumnv(){
