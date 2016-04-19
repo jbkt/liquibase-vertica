@@ -13,6 +13,11 @@ liquibase.integrationtest.local.properties
 /derby.log
 /.idea
 *.iml
+*.ipr
+*.iws
 .DS_Store
-liquibase.iml
 *.class
+
+# gradle build
+.gradle
+build
