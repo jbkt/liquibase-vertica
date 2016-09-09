@@ -4,13 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.liquibase.ext</groupId>
-    <artifactId>liquibase-verticaDatabase</artifactId>
-    <version>1.2-1</version>
+    <scm>
+        <developerConnection>scm:git:https://github.com/jbkt/liquibase-vertica.git</developerConnection>
+    </scm>
+
+    <groupId>com.github.jbkt</groupId>
+    <artifactId>liquibase-vertica</artifactId>
+    <version>1.3-SNAPSHOT</version>
 
     <name>Liquibase Vertica Database Integration</name>
     <description>Liquibase extension for HP's Vertica database</description>
-    <url>https://github.com/liquibase/liquibase-verticaDatabase</url>
+    <url>https://github.com/jbkt/liquibase-vertica</url>
 
     <organization>
         <name>HP</name>
